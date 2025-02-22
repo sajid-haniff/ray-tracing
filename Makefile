@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra -Wnon-virtual-dtor -Wreorder -Wmaybe-uninitialized -Wunused-variable
 
 # Source files
-SRCS = main.cc
+SRCS = main.cc vec3.h color.h ray.h
 
 # Object files
 OBJS = $(SRCS:.cc=.o)
